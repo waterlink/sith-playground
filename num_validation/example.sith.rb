@@ -1,15 +1,10 @@
 def add(a, b)
-  validate_nums(a, b)
+  validate_num(a)
+  validate_num(b)
   r = a + b
-  validate_nums(r)
+  validate_num(r)
   r
 end
 
-add(1, 3)
-
-begin
-  add("hello", "world")
-  exit(1)
-rescue => e
-  p e
-end
+add(3, 2)
+add(0.5, "hello")

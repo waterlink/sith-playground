@@ -1,3 +1,4 @@
-macro_mapper validate_nums(label)
-  fail "~{label} is not a number"
+macro validate_num(label)
+  fail "#{~{label}.inspect} is not a number" unless ~{label}.is_a?(Numeric)
+  ~{label}
 end

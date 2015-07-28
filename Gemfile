@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "sith", github: "alehander42/sith", ref: "master"
+gem "sith", github: "waterlink/sith", ref: "master"

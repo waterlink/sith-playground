@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/alehander42/sith.git
-  revision: e017fce8748f3a0792eb84b872501dbf2dcf2e42
+  remote: git://github.com/waterlink/sith.git
+  revision: 21f5e87517e128a54775569542a9a7bd147058e2
   ref: master
   specs:
     sith (0.1.0)
